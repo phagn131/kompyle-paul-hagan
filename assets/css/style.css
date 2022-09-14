@@ -1,0 +1,54 @@
+* {
+    /* The * is the default selector for the HTML page*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    /* This sets the background color of the webpage */
+    background-color: #d9dcd6;
+  }
+  
+  .horiseon-header {
+    /* adds padding, sets a font and color for text with a background color that overwrites the body selector */
+    padding: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+  }
+  
+  .horiseon-header h1 {
+    /* in-line block element sets a horizontal box element, like text(no line breaks), with font size */
+    display: inline-block;
+    font-size: 48px;
+  }
+  
+  .horiseon-header h1 .seo {
+    color: #d9dcd6;
+  }
+  
+  .horiseon-header nav {
+    /* sets the header relative to the margin on the right side, picks font size, color, and family(style)*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+  }
+  
+  .horiseon-header nav ul,
+  li {
+    /* define the ul and layout with the margin space on left*/
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  a {
+    /* sets the color and style for the element */
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
