@@ -1,97 +1,78 @@
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
 }
+
 
 body {
-  background-color: #707a66;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.profile-image{
   display: flex;
-  flex-direction: column;
-  font-family: sans-serif;
-  min-height: 100vh;
+  justify-content: center;
 }
-
-
-.paul {
-  position: relative;
-  padding: 5px;
-  margin-top: 4px;
-  text-align: left;
-  font-size: 24px;
-  background: light gray;
-  font-weight: bold;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-.nav-list {
+p{
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: flex-end;
-  height: 15vh;
-  border: 4px;
+  justify-content: center;
 }
 
-.nav-list li,ul {
+header {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: slategrey;
+}
+h1{
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+}
+ul{
+  display: flex;
   list-style-type: none;
-  display: inline-block;
-  margin-left: 25px;
-}
-main {
-  display: flex;
-  margin-top: 5%;
-}
-.profile-image-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  width: 90%;
-  height: 50vh;
 
 }
 
-.Biographical {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  width: 90%;
-  height: 50vh;
+ul li a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: black;
 }
-.social-links{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 90%;
-  height: 50vh;
-}
-.scrolling-images {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  height: 50vh;
-  margin: 0 auto;
 
+li a::after{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0;
+  background: rgb(16, 39, 62);
+  transition: 0.5s;
 }
-aside {
-  flex: 40%;
-  background-color: none;
-  padding: 20px;
-  flex-wrap: wrap;
-}
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+
+.box {
+  flex: 1 0 200px;
+  padding: 30px;
+  height: 300px;
   text-align: center;
-  background: #13293d;
+  border-style: solid;
+  border-width: 1px;
+}
+.box header {
+  padding: 20px;
+  background: transparent;
   color: #fff;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: slategrey;
 }
 
 @media screen and (max-width: 992px) {
@@ -103,7 +84,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   nav {
-    background-color: salmon;
+    background-color: rgb(17, 41, 37);
   }
 }
 
