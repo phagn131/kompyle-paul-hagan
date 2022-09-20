@@ -37,3 +37,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
       https://phagn131.github.io/Kompyle-Paul-Hagan
   2.  The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
       https://github.com/phagn131/Kompyle-Paul-Hagan
+
+
+![Paul Hagan portfolio webpage.](/assets/images/sceenshot-website.png)
