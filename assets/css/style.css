@@ -16,6 +16,9 @@ body{
   color: black;
 
 }
+.Paul{
+  background-color: slateblue;
+}
 
 .profile-image{
   display: flex;
@@ -25,21 +28,28 @@ body{
 p{
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+
   color:black;
 }
 
 header {
-  height: 120px;
+  height: 100px;
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  background-color: none;
+  align-content: center;
+  background-color: slategray;
   color: black;
 }
 h1{
   display: flex;
   justify-content: flex-start;
-  position: absolute;
+
 }
 ul{
   display: flex;
@@ -49,7 +59,7 @@ ul{
 
 ul li a{
   padding: 0 20px;
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
 }
 
@@ -69,6 +79,7 @@ li a::after{
   text-align: center;
   border-style: solid;
   border-width: 1px;
+  color: black;
 }
 .work{
   flex: 1 0 200px;
@@ -78,36 +89,35 @@ li a::after{
   border-style: solid;
   border-width: 1px;
 }
-.about-me{
-  padding: 20px;
-  background: transparent;
-  color: black;
-}
+
 
 .contact-me{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: slategrey;
   color: black;
   height: 20%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 @media screen and (max-width: 992px) {
   header {
-    background: darkblue;
+    background: slateblue;
   }
 }
 
 
 @media screen and (max-width: 768px) {
   nav {
-    background-color: rgb(17, 41, 37);
+    background-color: antiquewhite;
   }
 }
 
 @media screen and (max-width: 576px) {
   .sample-img {
-    background-color: firebrick;
+    background-color: s;
   }
 }
