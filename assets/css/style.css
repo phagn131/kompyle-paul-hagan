@@ -16,8 +16,10 @@ body{
   color: black;
 
 }
-.Paul{
-  background-color: slateblue;
+.profile-image{
+    margin-left: 104px;
+    border-radius: 10%;
+    margin-top: 37px;
 }
 
 .img{
@@ -121,19 +123,19 @@ section{
 
 @media screen and (max-width: 992px) {
   header {
-    background: slateblue;
+    background: slategray;
   }
 }
 
 
 @media screen and (max-width: 768px) {
   nav {
-    background-color: antiquewhite;
+    background-color: slategray;
   }
 }
 
 @media screen and (max-width: 576px) {
   .sample-img {
-    background-color: s;
+    background-color: slategray;
   }
 }
