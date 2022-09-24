@@ -1,14 +1,11 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 
-body{
-
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   color: white;
   background: black;
 }
@@ -19,14 +16,12 @@ section {
   margin: 30px auto;
   border: 10px solid black;
 }
-h1{
+
+h1 {
   padding-left: 10px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  
-  
-
 }
 
 header {
@@ -41,39 +36,39 @@ header {
   color: white;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: auto;
 }
 
-a{
+a {
   position: relative;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   font-size: 1.2rem;
   letter-spacing: 2px;
 }
 
-a:hover::after{
+a:hover::after {
   width: 100%;
 }
-ul{
+
+ul {
   display: flex;
   list-style-type: none;
-
 }
 
-ul li a{
+ul li a {
   padding: 0 20px;
   text-decoration: none;
   color: white;
 }
 
-a::after{
-  content: '';
+a::after {
+  content: "";
   display: block;
   height: 4px;
   width: 0;
@@ -81,74 +76,86 @@ a::after{
   transition: 0.5s;
   opacity: 50%;
   cursor: pointer;
-  
-  
-
-  
 }
-#heading-wrapper{
+
+#heading-wrapper {
   font-size: 30px;
 }
 
-.profile-image{
+.profile-image {
   display: flex;
   border-style: inset;
-
-}
-.Turing {
-  border-style: inset;
-  display: flex;
-  padding: 10px;
-  margin-bottom: 5vh;
-  align-content:flex-end;
-  margin-left: 20px;
-  cursor: pointer;
-  transition-duration: .75s;
-}
-.Turing:hover{
-  opacity: 50%;
-  transition-duration: .75s;
-}
-.upenn {
-  border-style: inset;
-  display: flex;
-  padding: 10px;
-  margin-bottom: 5vh;
-  align-content:flex-end;
-  margin-left: 20px;
-  cursor: pointer;
-  transition-duration: .75s;
-  
-}
-.upenn:hover{
-  opacity: 50%;
-  transition-duration: .75s;
-}
-p{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  color:white;
 }
 
-.subtitle{
+.subtitle {
   display: flex;
   flex-direction: column;
   padding: relative;
   border: none;
   font-size: 25px;
   margin-left: 20px;
-
 }
-#about-me{
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Turing {
+  border-style: inset;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 5vh;
+  align-content: flex-end;
+  margin-left: 20px;
+  cursor: pointer;
+  transition-duration: 0.75s;
+}
+
+.Turing:hover {
+  opacity: 50%;
+  transition-duration: 0.75s;
+}
+
+.upenn {
+  border-style: inset;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 5vh;
+  align-content: flex-end;
+  margin-left: 20px;
+  cursor: pointer;
+  transition-duration: 0.75s;
+}
+
+.upenn:hover {
+  opacity: 50%;
+  transition-duration: 0.75s;
+}
+
+.bio-heading {
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+
+#about-me {
   display: flex;
   justify-content: flex-start;
   text-decoration: overline;
 }
-.bio-heading{
+
+.first-project {
   font-size: 25px;
   display: flex;
   justify-content: flex-start;
@@ -158,33 +165,24 @@ p{
   margin-right: 5px;
   color: white;
 }
-#work-heading{
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: overline;
+
+#work-heading {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: overline;
 }
-.work:hover{
+
+.work:hover {
   opacity: 50%;
-  transition-duration: .75s;
+  transition-duration: 0.75s;
   cursor: pointer;
 }
-.first-project{
-  font-size: 25px;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: white;
-}
 
-
-.text{
+.text {
   margin-left: 20px;
 }
 
-.contact-me{
+.contact-me {
   flex: 1 1 15vh;
   padding: 20px;
   display: flex;
@@ -206,17 +204,15 @@ p{
   }
 }
 
-
 @media screen and (max-width: 992px) {
-  section,header {
+  section,
+  header {
     background-image: linear-gradient(black, slategray);
-    
   }
-  nav{
+  nav {
     background-color: black;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   nav {
@@ -226,7 +222,6 @@ p{
 
 @media screen and (max-width: 576px) {
   footer {
-    background-color: black; 
+    background-color: black;
   }
-
 }
