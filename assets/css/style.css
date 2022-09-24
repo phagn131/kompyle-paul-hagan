@@ -13,6 +13,12 @@ body{
   background: black;
 }
 
+section {
+  height: 400px;
+  width: 100%;
+  margin: 30px auto;
+  border: 10px solid black;
+}
 h1{
   padding-left: 10px;
   padding-right: 20px;
@@ -77,16 +83,7 @@ a::after{
 #heading-wrapper{
   font-size: 30px;
 }
-.heading{
-  display: flex;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-  color: black;
-  
 
-}
 .profile-image{
   display: flex;
   padding: 10px;
@@ -97,7 +94,6 @@ a::after{
 
 
 p{
-  height: 10vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
