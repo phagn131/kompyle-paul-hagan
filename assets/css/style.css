@@ -92,12 +92,7 @@ a::after{
 
 .profile-image{
   display: flex;
-  padding: 10px;
-  margin-bottom: 5vh;
-  align-content: center;
-  opacity: .90;
   border-style: inset;
-
 
 }
 .Turing {
