@@ -80,6 +80,7 @@ a::after{
   background: rgb(27, 114, 47);
   transition: 0.5s;
   opacity: 50%;
+  
 }
 #heading-wrapper{
   font-size: 30px;
@@ -100,9 +101,11 @@ a::after{
   margin-bottom: 5vh;
   align-content:flex-end;
   margin-left: 20px;
+  cursor: pointer;
 }
 .Turing:hover{
   opacity: 50%;
+  transition-duration: .75s;
 }
 p{
   display: flex;
@@ -145,6 +148,8 @@ p{
 }
 .work:hover{
   opacity: 50%;
+  transition-duration: .75s;
+  cursor: pointer;
 }
 .first-project{
   font-size: 25px;
