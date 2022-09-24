@@ -125,7 +125,7 @@ a::after{
   transition-duration: .75s;
   
 }
-.upen:hover{
+.upenn:hover{
   opacity: 50%;
   transition-duration: .75s;
 }
