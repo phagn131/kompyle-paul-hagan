@@ -1,41 +1,20 @@
 # 📖 Create a portfoilo for future employers to view.
 
-
 ## User Story
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+Hello.
+I want future employers to be able to access my portfolio with my current projects. I also want them to see the evolution from when I started coding to to where I am now. My first project was refactoring a website with starter code(HTML, CSS and a readme with the image(https://phagn131.github.io/code-refactor)). Once established in the developer community I want to branch out and work for companies that use technologies that are on the cutting edge; i.e. neuromorphic computing, quantum computing...or whatever comes after them. I look forward to the journey.
 
-
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+## Project Summation
+In this project I created a 
+responsive website that includes my name, information about my work, some things about me, and how to contact me through several links. 
 
 ## 📝 Notes
 
-- It is done when the following (2) items are submitted:
+- These are the (2) items required for submission.
   1.  The URL of the deployed application. 
       https://phagn131.github.io/kompyle-paul-hagan
-  2.  The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+  2.  The URL of the GitHub repository that contains your code. 
       https://github.com/phagn131/kompyle-paul-hagan
 
 
