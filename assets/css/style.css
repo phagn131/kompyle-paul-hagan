@@ -25,6 +25,7 @@ h1{
   padding-top: 20px;
   padding-bottom: 20px;
   
+  
 
 }
 
@@ -93,15 +94,16 @@ a::after{
 
 
 }
-.Turing{
+.Turing {
   display: flex;
   padding: 10px;
   margin-bottom: 5vh;
   align-content:flex-end;
   margin-left: 20px;
-
 }
-
+.Turing:hover{
+  opacity: 50%;
+}
 p{
   display: flex;
   flex-wrap: wrap;
@@ -124,6 +126,7 @@ p{
 #about-me{
   display: flex;
   justify-content: flex-start;
+  text-decoration: overline;
 }
 .bio-heading{
   font-size: 25px;
@@ -135,7 +138,14 @@ p{
   margin-right: 5px;
   color: white;
 }
-
+#work-heading{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: overline;
+}
+.work:hover{
+  opacity: 50%;
+}
 .first-project{
   font-size: 25px;
   display: flex;
@@ -146,6 +156,8 @@ p{
   margin-right: 5px;
   color: white;
 }
+
+
 .text{
   margin-left: 20px;
 }
