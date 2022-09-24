@@ -88,7 +88,9 @@ a::after{
   display: flex;
   padding: 10px;
   margin-bottom: 5vh;
-  align-content: center
+  align-content: center;
+  opacity: .90;
+
 
 }
 .Turing{
@@ -152,14 +154,16 @@ p{
   flex: 1 1 15vh;
   padding: 20px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
   background-color: black;
   color: white;
   height: 15vh;
-  flex-direction: column;
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: center;
+  flex-direction: row;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -170,8 +174,12 @@ p{
 
 
 @media screen and (max-width: 992px) {
-  header {
-    background: slategray;
+  section,header {
+    background-image: linear-gradient(black, slategray);
+    
+  }
+  nav{
+    background-color: black;
   }
 }
 
@@ -183,7 +191,8 @@ p{
 }
 
 @media screen and (max-width: 576px) {
-  .sample-img {
-    background-color: slategray;
+  footer {
+    background-color: black; 
   }
+
 }
