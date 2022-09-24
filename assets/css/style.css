@@ -80,6 +80,10 @@ a::after{
   background: rgb(27, 114, 47);
   transition: 0.5s;
   opacity: 50%;
+  cursor: pointer;
+  
+  
+
   
 }
 #heading-wrapper{
@@ -102,6 +106,7 @@ a::after{
   align-content:flex-end;
   margin-left: 20px;
   cursor: pointer;
+  transition-duration: .75s;
 }
 .Turing:hover{
   opacity: 50%;
