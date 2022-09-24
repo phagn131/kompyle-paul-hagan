@@ -39,4 +39,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
       https://github.com/phagn131/kompyle-paul-hagan
 
 
-![Paul Hagan portfolio webpage.](/assets/images/sceenshot-website.png)
+![Paul Hagan portfolio webpage.](/assets/images/kompyle-paul-hagan-screenshot.png)
