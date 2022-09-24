@@ -7,14 +7,18 @@
 }
 
 body{
-  /* add background image once the project is more complete*/
-  /*background-image: url('../images/dubai-image.jpg');
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;*/
+
   font-family: 'Roboto', sans-serif;
   color: white;
+  background: black;
+}
 
+h1{
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
 
 }
 
@@ -29,6 +33,7 @@ header {
   background-color: black;
   color: white;
 }
+
 .nav-list{
   display: flex;
   align-items: center;
@@ -40,9 +45,9 @@ a{
   position: relative;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  color: black;
-  font-size: 1rem;
-  letter-spacing: .5px;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
 }
 
 a:hover::after{
@@ -65,13 +70,16 @@ a::after{
   display: block;
   height: 4px;
   width: 0;
-  background: rgb(127, 146, 165);
+  background: rgb(27, 114, 47);
   transition: 0.5s;
   opacity: 50%;
 }
+#heading-wrapper{
+  font-size: 30px;
+}
 .heading{
-  flex: 1 1 30vh;
-  padding: 30px;
+  display: flex;
+  padding: 10px;
   text-align: center;
   border-style: solid;
   border-width: 1px;
@@ -82,38 +90,36 @@ a::after{
 .profile-image{
   display: flex;
   padding: 10px;
-  flex: 50%;
   margin-bottom: 5vh;
-
-
-}
-
-.img{
-display: flex;
-justify-content: flex-start;
-
+  align-content: center
 
 }
+
 
 p{
   height: 10vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   align-content: center;
   align-items: center;
-  color:black;
+  color:white;
 }
 
 .subtitle{
-  height: 10vh;
-  align-content: center;
   display: flex;
+  flex-direction: column;
+  padding: relative;
   border: none;
-  display: inline-block;
   margin-left: 20px;
+
 }
-.about-me, .work{
+#about-me{
+  display: flex;
+  justify-content: flex-start;
+}
+.bio-heading{
   font-size: 25px;
   display: flex;
   justify-content: flex-start;
@@ -121,29 +127,20 @@ p{
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
+  color: white;
 }
 
-.flex-container {
+.first-project{
+  font-size: 25px;
   display: flex;
-  flex-direction: row;
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 10vh;
-  margin-top: 10vh;
-  margin-right: 1vh;
-  margin-left: 4vh;
+  justify-content: flex-start;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
 }
 
-.flex-item-left {
-  padding: 10px;
-  flex: 50%;
-}
-
-.flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
-  flex: 50%;
-}
 
 .contact-me{
   flex: 1 1 15vh;
