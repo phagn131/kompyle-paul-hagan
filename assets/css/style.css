@@ -96,10 +96,12 @@ a::after{
   margin-bottom: 5vh;
   align-content: center;
   opacity: .90;
+  border-style: inset;
 
 
 }
 .Turing {
+  border-style: inset;
   display: flex;
   padding: 10px;
   margin-bottom: 5vh;
@@ -109,6 +111,21 @@ a::after{
   transition-duration: .75s;
 }
 .Turing:hover{
+  opacity: 50%;
+  transition-duration: .75s;
+}
+.upenn {
+  border-style: inset;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 5vh;
+  align-content:flex-end;
+  margin-left: 20px;
+  cursor: pointer;
+  transition-duration: .75s;
+  
+}
+.upen:hover{
   opacity: 50%;
   transition-duration: .75s;
 }
