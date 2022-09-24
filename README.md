@@ -34,9 +34,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 - It is done when the following (2) items are submitted:
   1.  The URL of the deployed application. 
-      https://phagn131.github.io/Kompyle-Paul-Hagan
+      https://phagn131.github.io/kompyle-paul-hagan
   2.  The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-      https://github.com/phagn131/Kompyle-Paul-Hagan
+      https://github.com/phagn131/kompyle-paul-hagan
 
 
 ![Paul Hagan portfolio webpage.](/assets/images/sceenshot-website.png)
