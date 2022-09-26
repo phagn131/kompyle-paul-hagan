@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
 }
-
+/*changed the font-family and add it to the HTML*/ 
 body {
   font-family: "Roboto", sans-serif;
   color: white;
   background: black;
 }
-
+/*use flexbox properties to make the page responsive*/
 section {
   flex: 1 1 15vh;
   width: 100%;
@@ -42,7 +42,7 @@ header {
   justify-content: space-around;
   margin: auto;
 }
-
+/*use letter spacing to promote eye catching appeal*/
 a {
   position: relative;
   text-decoration: none;
@@ -66,7 +66,7 @@ ul li a {
   text-decoration: none;
   color: white;
 }
-
+/*add pseudo elements to emphasize links*/
 a::after {
   content: "";
   display: block;
@@ -106,7 +106,7 @@ p {
   color: white;
 }
 
-.Turing {
+.Turing, .upenn {
   border-style: inset;
   display: flex;
   padding: 10px;
@@ -117,28 +117,12 @@ p {
   transition-duration: 0.75s;
 }
 
-.Turing:hover {
+.Turing:hover, .upenn:hover {
   opacity: 50%;
   transition-duration: 0.75s;
 }
 
-.upenn {
-  border-style: inset;
-  display: flex;
-  padding: 10px;
-  margin-bottom: 5vh;
-  align-content: flex-end;
-  margin-left: 20px;
-  cursor: pointer;
-  transition-duration: 0.75s;
-}
-
-.upenn:hover {
-  opacity: 50%;
-  transition-duration: 0.75s;
-}
-
-.bio-heading {
+.bio-heading, .first-project {
   font-size: 25px;
   display: flex;
   justify-content: flex-start;
@@ -149,24 +133,7 @@ p {
   color: white;
 }
 
-#about-me {
-  display: flex;
-  justify-content: flex-start;
-  text-decoration: overline;
-}
-
-.first-project {
-  font-size: 25px;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: white;
-}
-
-#work-heading {
+#about-me, #work-heading {
   display: flex;
   justify-content: flex-start;
   text-decoration: overline;
@@ -197,7 +164,7 @@ p {
   font-size: 1.2rem;
   letter-spacing: 2px;
 }
-
+/*set parameters for responive pages on different devices*/
 @media screen and (max-width: 1200px) {
   header {
     background: slategray;
